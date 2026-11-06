@@ -1,0 +1,33 @@
+.hero {
+   background: #2e2f42; 
+   padding: 188px 0;
+}
+
+
+.hero-wrapper .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+max-width: 496px;
+margin: 0 auto 48px;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+
+
+.btn {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 0;
+border: none;
+}
