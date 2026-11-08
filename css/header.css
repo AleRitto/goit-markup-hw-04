@@ -27,6 +27,7 @@ margin: 0 auto;
 }
 
 .main-nav-link {
+position: relative;
 font-weight: 500;
 display: block;
 padding: 24px 0;
@@ -49,7 +50,8 @@ padding: 0;
 }
 
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus, 
+.main-nav-link.current {
     color: #404bbf;
 }
 
@@ -63,4 +65,17 @@ display: inline-block;
 
 address {
     font-style: normal;
+}
+
+
+.main-nav-link.current::after {
+content: '';
+display: block;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+border-radius: 2px;
+height: 4px;
+background: #404bbf;
 }

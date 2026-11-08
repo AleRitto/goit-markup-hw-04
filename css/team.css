@@ -68,3 +68,35 @@ gap: 72px;
     padding: 32px 16px;
     text-align: center;
 }
+
+.social-links-list {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 24px;
+}
+
+
+.social-link {
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background: #4d5ae5;
+border-radius: 40px;
+width: 40px;
+height: 40px;
+}
+
+.social-icon {
+  color: #2e2f42;
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color:  #404bbf;;
+}
