@@ -66,6 +66,10 @@ address {
 }
 
 
+.main-nav-link.current {
+color: #404bbf;
+}
+
 .main-nav-link.current::after {
 content: '';
 display: block;
